@@ -9,3 +9,8 @@ calcule os descontos e o salário líquido, conforme a tabela abaixo:+ Salário 
 = Salário Liquido : R$
 Obs.: Salário Bruto - Descontos = Salário Líquido.*/
 
+let valor_hora =  37.5
+let horas_mes = 180
+let salario_bruto = valor_hora * horas_mes
+let ir = salario_bruto * 0.11
+let inss = salario_bruto * 0
