@@ -13,4 +13,13 @@ let valor_hora =  37.5
 let horas_mes = 180
 let salario_bruto = valor_hora * horas_mes
 let ir = salario_bruto * 0.11
-let inss = salario_bruto * 0
+let inss = salario_bruto * 0.08
+let sindicato = salario_bruto * 0.05
+let descontos = ir + inss + sindicato
+let salario_liquido = salario_bruto - descontos
+console.log("IR (11%): R$ " + ir.toFixed(2))
+console.log("INSS (8%): R$ " + inss.toFixed(2))
+console.log("SINDICATO (11%): R$ " + sindicato.toFixed(2))
+console.log("SALARIO LIQUIDO : R$ " + salario_liquido.toFixed(2))
+
+
