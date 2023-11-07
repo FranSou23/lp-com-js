@@ -1,0 +1,10 @@
+//Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
+ let pao = 10.00, pao_forma = 4.00, pao_caseiro = 6.00
+
+ if( pao < pao_forma && pao < pao_caseiro){
+    console.log("Comprar o Pão")
+ }else if(pao_forma < pao_caseiro && pao_forma < pao){
+        console.log("Comprar o Pão de Forma")    
+    }else if(pao_caseiro < pao && pao_caseiro < pao_forma){
+        console.log("Comprar o Pão Caseiro")
+    }

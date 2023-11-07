@@ -1,0 +1,10 @@
+// Faça um programa que peça o nome e a idade do usuario, se for maior ou igual a 18 mostre a mensagem "Ola, nome, pode dirigir" senão mostre a mensagem "nome Volte em alguns anos"
+
+let nome = "Francislene"
+let idade = "37"
+
+if(idade >= 18){
+    console.log("Olá, "+ nome +", pode dirigir")
+}else{
+    console.log(nome + "voltem em alguns anos")
+}
